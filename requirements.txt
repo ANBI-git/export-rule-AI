@@ -1,3 +1,24 @@
-streamlit==1.38.0
-pypdf==5.0.1
-reportlab==4.2.2
+# KSA Export Control System - Requirements
+# Python 3.8+ required
+
+# Core Framework
+streamlit>=1.28.0
+
+# PDF Processing
+pypdf>=3.17.0
+reportlab>=4.0.7
+
+# Optional but recommended for enhanced features
+# Uncomment if you want to add these capabilities:
+
+# pandas>=2.1.0          # For data analysis and CSV export
+# plotly>=5.18.0         # For interactive charts
+# openpyxl>=3.1.2        # For Excel export
+# python-docx>=1.1.0     # For Word document generation
+# Pillow>=10.1.0         # For image processing
+# requests>=2.31.0       # For API integrations (METI, NACCS)
+# sqlalchemy>=2.0.23     # For database integration
+# psycopg2-binary>=2.9.9 # For PostgreSQL
+# pydantic>=2.5.0        # For data validation
+# python-dotenv>=1.0.0   # For environment variables
+# cryptography>=41.0.7   # For encryption features
